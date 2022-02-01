@@ -1,0 +1,6 @@
+adduser:
+  username:  "{{ username }}"
+  fullname: "{{ fullname }}"
+# pass: 
+
+

@@ -1,0 +1,4 @@
+adduser:
+  username:  "{{ username }}"
+  fullname: "{{ fullname }}"
+  pass: $6$.1itWta0lQ/yYzYW$MfvGzb/.XolYX/pKfvJEQjD5.0jHfXu8.ykUQUstiM0BgH6XsPHAwdqrEVGmCm9oJT17p.Kp.BEVAIWKC/lAp1

@@ -1,0 +1,9 @@
+- name: Add the user
+  ansible.builtin.user:
+    name: "{{ adduser.username }}"
+    comment: "{{ adduser.fullname  }}"
+    password: '' # Insert password hash
+    group: sudo
+    createhome: yes
+    shell: /bin/bash
+    expires: -1

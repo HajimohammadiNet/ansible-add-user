@@ -1,0 +1,5 @@
+- name: Start create user
+  hosts: all
+  become: true
+  roles:
+     - createuser
